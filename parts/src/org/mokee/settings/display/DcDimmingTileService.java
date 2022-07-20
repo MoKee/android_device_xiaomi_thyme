@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.lineageos.settings.display;
+package org.mokee.settings.display;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -24,7 +24,7 @@ import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
 import androidx.preference.PreferenceManager;
 
-import org.lineageos.settings.utils.FileUtils;
+import org.mokee.settings.utils.FileUtils;
 
 public class DcDimmingTileService extends TileService {
 

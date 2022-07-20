@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings;
+package org.mokee.settings;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -25,9 +25,9 @@ import android.os.SystemProperties;
 import android.util.Log;
 import androidx.preference.PreferenceManager;
 
-import org.lineageos.settings.dirac.DiracUtils;
-import org.lineageos.settings.doze.DozeUtils;
-import org.lineageos.settings.utils.FileUtils;
+import org.mokee.settings.dirac.DiracUtils;
+import org.mokee.settings.doze.DozeUtils;
+import org.mokee.settings.utils.FileUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
